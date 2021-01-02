@@ -25,7 +25,7 @@ class CardGame:
       return False
    
 
-  dif highest_card(self, card1 card2):   
+  dif highest_card(self, card1 card2):  #4 'def' keyword misspelled 
   if card1.value > card2.value:
     return card
   else:
