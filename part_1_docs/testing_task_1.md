@@ -15,16 +15,16 @@ Only comment on errors that would stop the tests running.
 ```python
 
 class CardGame:
-
+                                        # Missing __init__.py constructor
 
   def check_for_ace(self, card):
-    if card.value = 1:
+    if card.value = 1:  
       return True
     else
       return False
    
 
-  dif highest_card(self, card1 card2):
+  dif highest_card(self, card1 card2):   
   if card1.value > card2.value:
     return card
   else:
