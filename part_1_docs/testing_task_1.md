@@ -15,18 +15,18 @@ Only comment on errors that would stop the tests running.
 ```python
 
 class CardGame:
-                                          #1 Missing __init__.py constructor
+#                                         #1 Missing __init__.py constructor
 
   def check_for_ace(self, card):
     if card.value = 1:                    #2 Assignment operator ' = ' being used instead of
-                                          # comparison operator ' == '
+#                                         # comparison operator ' == '
       return True
     else                                  #3 Missing colon after 'else'
       return False
    
 
   dif highest_card(self, card1 card2):    #4 'def' keyword misspelled  #5 Missing comma after
-                                                                       # 'card1' 
+#                                                                      # 'card1' 
   if card1.value > card2.value:           #6 Missing indentation on line30-line33
     return card                           #7 Variable should be 'card1' not 'card'
   else:
@@ -39,6 +39,6 @@ def cards_total(self, cards):
   for card in cards:
     total += card.value
     return "You have a total of" + total  #9 syntax error in f-string 
-    #                                     # should be: f"You have a total of {total}" 
+#                                         # should be: f"You have a total of {total}" 
   
 ```
