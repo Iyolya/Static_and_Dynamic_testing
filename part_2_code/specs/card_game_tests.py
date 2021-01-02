@@ -7,3 +7,4 @@ class TestCardGame(unittest.TestCase):
         self.card1 = Card("Hearts", 4)
         self.card2 = Card("Clubs", 8)
        
+
