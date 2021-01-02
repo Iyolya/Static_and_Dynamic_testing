@@ -15,10 +15,11 @@ Only comment on errors that would stop the tests running.
 ```python
 
 class CardGame:
-                                        # Missing __init__.py constructor
+                                        #1 Missing __init__.py constructor
 
   def check_for_ace(self, card):
-    if card.value = 1:  
+    if card.value = 1:                  #2 Assignment operator ' = ' being used instead of
+                                        # comparison operator ' == '
       return True
     else
       return False
