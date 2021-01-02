@@ -21,7 +21,7 @@ class CardGame:
     if card.value = 1:                  #2 Assignment operator ' = ' being used instead of
                                         # comparison operator ' == '
       return True
-    else
+    else                                #3 Missing colon after 'else'
       return False
    
 
